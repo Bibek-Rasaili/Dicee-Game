@@ -26,3 +26,7 @@ if (randomNumber2 > randomNumber1){
 if (randomNumber1 == randomNumber2){
   document.querySelector("h1").textContent = "Draw";
 }
+
+// Can use innerHTML here instead of textContent
+// Can use else if and negate the need for the last if statement
+// if 1>2 .. else 2>1 .. else ..
